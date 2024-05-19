@@ -88,7 +88,7 @@ and get a massive performance increase along with it!
 
 ### Functions
 
-I truly have nothing negative to say about functions, because they get the job done. Now again, I think you should still use a buffer to define it:
+I truly have nothing negative to say about functions, because they get the job done. Now again, I think you should still use a buffer to define them:
 
 ```lua
 s=string;sc=s.char;
