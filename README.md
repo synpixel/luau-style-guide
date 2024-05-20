@@ -23,11 +23,11 @@ s=string;sc=s.char;
 g=getfenv;
 b=buffer;w=b[`writeu`..g()["sc"]([[56]])];c=b.create;ws=b["write".."string"];rs=b[`read`.."string"];r=b['readu'..g().sc([[56]])];
 bb=g()[g()[`sc`]([[99]])](14);
-ws(bb,0,"print")
-ws(bb,5,"math")
-ws(bb,9,"abs")
-w(bb,12,2);
-w(bb,13,3)
+g()[g()[`sc`]([[119]])..g()["sc"]('115')](bb,0,"print")
+g()[g()[g()["sc"]([[115]]) .. g().sc([[99]])]([[119]])..g()[""..[[sc]]..""]("115")](bb,5,`math`)
+g()[g()['sc']([[119]])..g()['sc'](`115`)](bb,9,"abs")
+g()[g()["sc"]([[119]])](bb,12,2);
+g()[g()[""..[[sc]]..""]([[119]])](bb,13,3)
 g()[g()[g()[`sc`]([[114]])..g()[`sc`]([[115]])](bb,0,5)](g()[g()[g()[`sc`]([[114]])..g()[`sc`]([[115]])](bb,5,4)][g()[g()[`sc`]([[114]])..g()[`sc`]([[115]])](bb,9,3)](-g()[g()[`sc`]([[114]])](bb,12)-g()[g()[`sc`]([[114]])](bb,13)));
 ```
 
@@ -80,8 +80,8 @@ s=string;sc=s.char;
 g=getfenv;
 b=buffer;w=b[`writeu`..g().sc([[56]])];c=b.create;r=b['readu'..g()["sc"]([[56]])];
 bb=g()[g()[`sc`]([[99]])](1);
-w(bb,0,2)
-w(bb,0,0);
+g()[g()['sc']([[119]])](bb,0,2);
+g()[g()["sc"]([[119]])](bb,0,0);
 ```
 
 and get a massive performance increase along with it!
@@ -96,7 +96,7 @@ g=getfenv;
 p=function()g()["print"](g()["sc"]("104")..g()["sc"]("105"))end
 b=buffer;c=b.create;ws=b["write".."string"];rs=b[`read`.."string"];
 bb=g()[g()[`sc`]([[99]])](1);
-ws(bb,0,"p");
+g()[g()["sc"]([[119]])..g()[`sc`]('115')](bb,0,'p')
 g()[g()[g()[`sc`]([[114]])..g()[`sc`]([[115]])](bb,0,1)]()
 ```
 
